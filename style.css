@@ -35,9 +35,9 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 100vh; */
-  border-radius: 20px;
+  height: 100vh;
   position: relative;
+  border-radius: 30px;
 }
 
 .color-overlay {
@@ -53,6 +53,15 @@ h1 {
 
 h2 {
   font-size: 3rem;
+}
+
+.splide__pagination__page {
+  background: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 @media screen and (max-width: 800px) {
